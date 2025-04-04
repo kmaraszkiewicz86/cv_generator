@@ -9,10 +9,12 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="QuestPDF" Version="2025.1.7" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\CvGenerator.Domain\CvGenerator.Domain.csproj" />
+	  <ProjectReference Include="..\CvGenerator.Shared\CvGenerator.Shared.csproj" />
 	</ItemGroup>
 
 	<PropertyGroup>

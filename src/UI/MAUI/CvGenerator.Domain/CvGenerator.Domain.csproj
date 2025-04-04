@@ -12,4 +12,8 @@
 		<PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.3" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\CvGenerator.Shared\CvGenerator.Shared.csproj" />
+	</ItemGroup>
+
 </Project>
